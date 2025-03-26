@@ -1,0 +1,175 @@
+
+/* Body and general styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #08044d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #FFD700;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+}
+
+/* Image styles */
+img {
+    border: 3px solid #08044d;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+/* Typography styles */
+h2 {
+    color: #2c3e50;
+    font-family: 'Georgia', serif;
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #3498db;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Theme verse section */
+p {
+    margin: 15px 15px;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-left: 4px solid #3498db;
+}
+
+/* List styles */
+ol {
+    background-color: #f8f9fa;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Form styles */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px 30px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #FFD700;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFD700;
+}
+
+/* Media elements */
+audio, video {
+    margin: 15px 0;
+    border-radius: 5px;
+    background-color: #2c3e50;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50;
+    color: rgb(15, 0, 0);
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #333391;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Special classes */
+.theme-verse {
+    font-style: italic;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+
+.core-values {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+/* ID styles */
+#welcome-video {
+    border: 3px solid #3498db;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: #2c3e50;
+}
